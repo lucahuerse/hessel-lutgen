@@ -1,2 +1,1 @@
-# github pages
-[link] (https://lucahuerse.github.io/sandmeier)
+# https://lucahuerse.github.io/sandmeier
