@@ -2780,14 +2780,19 @@
 
 		}
 
-	#content p{
-		margin: 0 0 0 0;
-	}
 
 	#content div{
 		margin: -70px 0 0 0;
 	}
 
+	.zeromargin p{
+		margin: 0 0 0 0;
+	}
+
+	.p-80pc{
+		font-size: 80%;
+		margin: 30px 0 0 0;
+	}
 /* Header */
 
 	#header {
