@@ -3289,6 +3289,10 @@
 				margin-top: 0px;
 			}
 
+			#content p{
+				font-size: 80%;
+			}
+
 			#footer {
 				padding: 3em 0 1em 0;
 			}
