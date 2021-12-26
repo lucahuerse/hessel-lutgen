@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
   <defs>
-    <clipPath id="clip-vita_grayscale">
+    <clipPath id="clip-vita_colored_1">
       <rect width="150" height="150"/>
     </clipPath>
   </defs>
-  <g id="vita_grayscale" clip-path="url(#clip-vita_grayscale)">
+  <g id="vita_colored_1" data-name="vita_colored – 1" clip-path="url(#clip-vita_colored_1)">
     <g id="vita" transform="translate(-2.569 17.419)">
       <path id="Path_154" data-name="Path 154" d="M47.955,31.1H33.124v4.266h2.39a3.1,3.1,0,0,1,2.619,1.542L29.228,71.363,20.192,37.925a3.121,3.121,0,0,1,3.012-2.56h2.128V31.1H5v4.266H7.39a3.2,3.2,0,0,1,2.881,2.067h0l.065.2a.96.96,0,0,1,.065.3l.164.591h0L22.909,84.062h8.054l12.048-46.6a3.115,3.115,0,0,1,2.881-2.1h2.063V31.1Z" transform="translate(0)" fill="#8e8e8e"/>
       <path id="Path_155" data-name="Path 155" d="M47.955,31.1H33.124v4.266h2.39a3.1,3.1,0,0,1,2.619,1.542L29.228,71.363,20.192,37.925a3.121,3.121,0,0,1,3.012-2.56h2.128V31.1H5v4.266H7.39a3.2,3.2,0,0,1,2.881,2.067h0l.065.2a.96.96,0,0,1,.065.3l.164.591h0L22.909,84.062h8.054l12.048-46.6a3.115,3.115,0,0,1,2.881-2.1h2.063V31.1Z" transform="translate(0)" fill="none"/>
