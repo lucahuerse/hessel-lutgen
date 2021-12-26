@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="326" height="31" viewBox="0 0 326 31">
   <defs>
-    <clipPath id="clip-hessel-lutgen_white">
+    <clipPath id="clip-hessel-lutgen">
       <rect width="326" height="31"/>
     </clipPath>
   </defs>
-  <g id="hessel-lutgen_white" clip-path="url(#clip-hessel-lutgen_white)">
+  <g id="hessel-lutgen" clip-path="url(#clip-hessel-lutgen)">
     <g id="Group_1" data-name="Group 1" transform="translate(0 -3)">
       <text id="Dentaltechnik" transform="translate(-1 20)" fill="#f37021" font-size="21" font-family="HoeflerText-Regular, Hoefler Text" letter-spacing="0.039em"><tspan x="0" y="0">Dentaltechnik</tspan></text>
-      <text id="Hessel_Lutgen" data-name="Hessel   Lutgen" transform="translate(146 20)" fill="#fff" font-size="20" font-family="LucidaGrande, Lucida Grande" letter-spacing="0.116em"><tspan x="0" y="0" xml:space="preserve">Hessel   Lutgen</tspan></text>
+      <text id="Hessel_Lutgen" data-name="Hessel   Lutgen" transform="translate(146 20)" fill="#929497" font-size="20" font-family="LucidaGrande, Lucida Grande" letter-spacing="0.116em"><tspan x="0" y="0" xml:space="preserve">Hessel   Lutgen</tspan></text>
       <path id="Path_1" data-name="Path 1" d="M1964.368,1221.33s9.691,11.823,23.573,5.864a29.555,29.555,0,0,0,8.423-5.864" transform="translate(-1745.401 -1196.33)" fill="none" stroke="#f37021" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2"/>
     </g>
   </g>

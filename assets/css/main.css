@@ -3200,6 +3200,9 @@
 		color: #aaa;
 		text-align: center;
 	}
+		#footer header.major {
+			margin: 0px;
+		}
 
 		#footer a {
 			-moz-transition: color 0.2s ease-in-out;
@@ -3310,4 +3313,22 @@
 					padding: 0;
 				}
 
+		}
+
+		.card {
+			width: 100px;
+			height: 100px;
+			position: relative;
+			display: inline-block;
+			margin: 0 1em 0 1em;
+		}
+		.card .img-top {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 99;
+		}
+		.card:hover .img-top {
+			display: inline;
 		}
