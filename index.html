@@ -28,11 +28,11 @@
 				</nav>
 			</header>
 
-			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+			<a onclick="openNavPanel()" href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Banner -->
 			<section id="banner">
-				<h2 style="text-align: center;">Dentaltechnik<br>Hessel-Lutgen</h2>
+				<!-- <h2 style="text-align: center;">Dentaltechnik<br>Hessel-Lutgen</h2> -->
 				<!-- <a href="index.html"><img src="images/hessel-lutgen_white.svg" style="margin-top: 3em; margin-left: 3em"></a> -->
 				<p>Lorem ipsum dolor sit amet nullam consequat <br /> interdum vivamus donce sed libero.</p>
 				<ul class="actions">
@@ -341,13 +341,20 @@
 					</ul>
 				</div>
 			</footer>
-
+			<div id="navPanel">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">Über uns</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+				<a href="#navPanel" onclick="closeNavPanel()" class="close"></a>
+			</div>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/slideshow.js"></script>
+			
 
+			
 	</body>
 </html>
