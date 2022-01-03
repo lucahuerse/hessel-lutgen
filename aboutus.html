@@ -27,7 +27,7 @@
 				</nav>
 			</header>
 
-			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+			<a onclick="openNavPanel()" href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Main -->
 		<section id="three" class="wrapper style1">
@@ -204,6 +204,15 @@
 					</ul>
 				</div>
 			</footer>
+			<div id="navPanel">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">Über uns</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+				<a href="#navPanel" onclick="closeNavPanel()" class="close"></a>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/main.js"></script>
