@@ -2129,7 +2129,7 @@ input[type="reset"].special:active,
 input[type="button"].special:active,
 button.special:active,
 .button.special:active {
-  background-color: #f21040;
+  background-color: #ee6b00;
 }
 
 @media screen and (max-width: 480px) {
@@ -2400,8 +2400,8 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #f32853;
-  box-shadow: 0 0 0 1px #f32853;
+  border-color: #cc5f2d;
+  box-shadow: 0 0 0 1px #cc5f2d;
 }
 
 input[type="checkbox"] + label:before {
@@ -3592,4 +3592,23 @@ body.is-touch #banner {
 
 .slideshow-container a {
   text-decoration: none;
+}
+
+.label-value{
+  width:100%;  
+  white-space:nowrap;
+  margin: 0;
+  padding: 0;
+}
+.label-value li{
+  padding: 0.5em 0;
+  display:inline-block;
+  white-space:normal !important;
+}
+
+.list-label{
+  width: 150px;
+  color: #484848;
+  font-weight: 700;
+  vertical-align: top;
 }
