@@ -1,8 +1,8 @@
 const openNavPanel = () => {
   const navPanel = document.querySelector("#navPanel");
-  navPanel.classList.add("visible", "transition");
-
-  console.log(navPanel);
+  if (navPanel.classList.contains("visible"))
+    navPanel.classList.remove("visible");
+  else navPanel.classList.add("visible", "transition");
 };
 
 const closeNavPanel = () => {
