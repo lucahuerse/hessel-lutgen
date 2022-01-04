@@ -2529,6 +2529,7 @@ input[type="radio"] + label:before {
   display: block;
   padding: 1em 1em;
   text-align: center;
+  border-radius: 4px 4px 0 0;
 }
 
 @media screen and (max-width: 736px) {
@@ -2812,7 +2813,7 @@ header.major p {
 
 @media screen and (max-width: 480px) {
   header.major h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 }
 
@@ -3100,11 +3101,11 @@ body.is-touch .wrapper.style3 {
 .navPanelToggle {
   text-decoration: none;
   text-decoration: none;
-  height: 100%;
+  /* height: 100%; */
   left: 0;
   position: absolute;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
   display: none;
 }
 
@@ -3283,12 +3284,15 @@ body.is-touch #banner {
   font-size: 3.5em;
   line-height: 1.35;
   margin-bottom: 0.5em;
+  display: block;
+  margin: 0;
 }
 
 #banner p {
   color: #aaa;
   font-size: 1.5em;
   margin-bottom: 1.75em;
+  margin-top: 1.5em;
   text-transform: uppercase;
 }
 
@@ -3535,6 +3539,7 @@ body.is-touch #banner {
   text-align: center;
   padding: 0 1em;
   box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 4px 4px;
 }
 
 /* Number text (1/3 etc) */
@@ -3596,18 +3601,40 @@ body.is-touch #banner {
 
 .label-value{
   width:100%;  
-  white-space:nowrap;
+  margin: 0;
+  padding: 0.5em 0;
+  white-space: nowrap;
+}
+
+.label-value.special {
+  white-space: normal;
+  padding: 1.5em 0;
+}
+
+.label-value.special .list-label {
+  width: 150px;
+}
+
+.label-value li{
+  display:inline-block;
+}
+
+.label-value ul{
   margin: 0;
   padding: 0;
 }
-.label-value li{
-  padding: 0.5em 0;
-  display:inline-block;
-  white-space:normal !important;
+
+.list-value {
+  white-space: normal !important;
+}
+
+.list-value ul li {
+  display: block;
+  padding: 0;
 }
 
 .list-label{
-  width: 150px;
+  width: 100px;
   color: #484848;
   font-weight: 700;
   vertical-align: top;
@@ -3619,6 +3646,7 @@ body.is-touch #banner {
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  margin-bottom: 3em;
 }
 
 .map-responsive iframe{
@@ -3627,4 +3655,22 @@ body.is-touch #banner {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+@media only screen and (max-width: 980px) {
+  .show-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 981px) {
+  .show-mobile {
+    display: none;
+  }
+  .hide-mobile {
+    display: block;
+  }
 }
